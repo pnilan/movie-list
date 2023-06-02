@@ -2,6 +2,7 @@
   --main-black: #1D0F0F;
   --main-dark-grey: #453C41;
   --main-light-grey: #7B7C81;
+  --main-elight-grey: #dfe1e9;
   --main-light-blue: #D4DBE2;
   --main-slate: #bbc9d9;
   --main-plum: #7B586B;
@@ -18,14 +19,22 @@ header {
   color: white;
 }
 
-button {
-  margin-left: 5px;
-  margin-bottom: 5px;
+input {
+  margin-right: 5px;
 }
 
-.movie-entry  {
+button {
+ margin-bottom: 5px;
+}
+
+.movie-entry {
   padding: 10px;
   background-color: white;
+}
+
+.movie-details {
+  background-color: var(--main-elight-grey);
+  padding: 10px;
 }
 
 .movie-entry:hover {

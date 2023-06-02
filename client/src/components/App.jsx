@@ -5,11 +5,11 @@ import WatchToggle from './WatchToggle.jsx';
 import AddMovie from './AddMovie.jsx';
 
 const exampleMovieData = [
-  { title: 'Mean Girls', watched: false },
-  { title: 'Hackers', watched: true },
-  { title: 'The Grey', watched: false },
-  { title: 'Sunshine', watched: true },
-  { title: 'Ex Machina', watched: true }
+  { title: 'Mean Girls', watched: false, year: 2000, runtime: '200 min', director: 'Martin Scorsese' },
+  { title: 'Hackers', watched: true, year: 1854, runtime: '100 min', director: 'Jack Scorsese' },
+  { title: 'The Grey', watched: false, year: 1999, runtime: '125 min', director: 'Michael Scorsese' },
+  { title: 'Sunshine', watched: true, year: 1948, runtime: '25 min', director: 'Kurt Scorsese' },
+  { title: 'Ex Machina', watched: true, year: 5729, runtime: '47 min', director: 'Future Scorsese' }
 ];
 
 const App = (props) => {

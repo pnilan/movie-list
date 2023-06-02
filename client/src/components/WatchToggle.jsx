@@ -1,7 +1,6 @@
 import React from 'react';
 
 const WatchToggle = ({watchedToggle, toggle}) => {
-
   return (
     <div className="col">
       <div className="btn-group">

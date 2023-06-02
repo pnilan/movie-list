@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 
 const AddMovie = ({movieTitle, handleSubmit, handleChange}) => {
-  // const [movieTitle, setMovieTitle] = useState('');
-
   return (
     <div className="col">
     <form onSubmit={(event) => {
