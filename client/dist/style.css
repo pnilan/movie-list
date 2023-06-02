@@ -1,3 +1,35 @@
+:root {
+  --main-black: #1D0F0F;
+  --main-dark-grey: #453C41;
+  --main-light-grey: #7B7C81;
+  --main-light-blue: #D4DBE2;
+  --main-slate: #bbc9d9;
+  --main-plum: #7B586B;
+}
+
 body {
   font-family: sans-serif, arial;
+  color: var(--main-black);
+  background-color: var(--main-light-blue);
+}
+
+header {
+  background-color: var(--main-light-grey);
+  color: white;
+}
+
+button {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.movie-entry  {
+  padding: 10px;
+  background-color: white;
+}
+
+.movie-entry:hover {
+  background-color: var(--main-slate);
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
 }
